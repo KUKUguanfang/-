@@ -185,8 +185,8 @@ while True:
             duihua = result[4:]
             client = OpenAI(
                 # defaults to os.environ.get("OPENAI_API_KEY")
-                api_key="sk-cERNahxkuhMsLeiyvefdTxQdw3uapuL6ieKSZdwN4XR8caPE",
-                base_url="https://api.chatanywhere.tech"
+                api_key="",
+                base_url=""
             )
 
 
